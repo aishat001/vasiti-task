@@ -1,0 +1,12 @@
+.mediumButton {
+    width: 84px;
+    height: 32px;
+    border-radius: 4px;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+
+}
+.sm-boxShadow {
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+}
