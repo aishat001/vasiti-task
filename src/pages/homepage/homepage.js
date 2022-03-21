@@ -72,9 +72,9 @@ function Homepage() {
                     <div className="space-y-3 w-80 mb-20 mr-5">
                         <img src={item.image} alt=""/>
                         <p className="text-2xl">{item.name}</p>
-                        <div className="flex flex-row space-x-3">
-                            <span>IN {item.location}</span>
-                            <span>{item.type}</span>
+                        <div className="flex flex-row space-x-3 items-center">
+                            <span >IN {item.location}</span>
+                            <span className="blue p-2">{item.type}</span>
 
                         </div>
                         <p>{item.info}</p>
@@ -120,9 +120,9 @@ function Homepage() {
                         <div className="space-y-3 w-80 mb-20 mr-5">
                             <img src={item.image} alt=""/>
                             <p className="text-2xl">{item.name}</p>
-                            <div className="flex flex-row space-x-3">
-                                <span>IN {item.location}</span>
-                                <span>{item.type}</span>
+                            <div className="flex flex-row space-x-3 items-center">
+                                {/* <span>IN {item.location}</span> */}
+                                <span className="green p-2">{item.type}</span>
     
                             </div>
                             <p>{item.info}</p>

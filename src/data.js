@@ -37,21 +37,21 @@ const people =[
     "name": "Joseph Ike",
     "image": image4,
     "location": "Ikeja",
-    "type": "VENDOR",
+    "type": "CUSTOMER",
     "info": "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim."
 },
     {
     "name": "Joseph Ike",
     "image": image5,
     "location": "Ikeja",
-    "type": "VENDOR",
+    "type": "CUSTOMER",
     "info": "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim."
 },
     {
     "name": "Joseph Ike",
     "image": image6,
     "location": "Ikeja",
-    "type": "VENDOR",
+    "type": "CUSTOMER",
     "info": "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim."
 }
 ]
