@@ -1,9 +1,9 @@
 import React from 'react'
 
-function stories() {
+function Stories() {
   return (
     <div>signup</div>
   )
 }
 
-export default stories
+export default Stories

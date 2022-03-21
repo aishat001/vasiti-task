@@ -1,19 +1,23 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import about from '../pages/about'
-import contact from '../pages/contact'
-import login from '../pages/login'
-import signup from '../pages/signup'
-import stories from '../pages/stories'
+import Homepage from '../pages/homepage/homepage'
+import About from '../pages/about'
+import Stories from '../pages/stories'
+import Contact from '../pages/contact'
+import Login from '../pages/login'
+import Signup from '../pages/signup'
+import Success from '../pages/success'
 
 export default function Navigation() {
   return (
     <Routes>
-            <Route path="/aboutUs" component={about} />
-            <Route path="/stories" component={stories} />
-            <Route path="/contact" component={contact} />
-            <Route path="/login" component={login} />
-            <Route path="/signup" component={signup} />
+            <Route exact path="/" element={<Homepage/>} />
+            <Route exact path="/aboutUs" element={<About/>} />
+            <Route exact path="/stories" element={<Stories/>} />
+            <Route exact path="/contact" element={<Contact/>} />
+            <Route exact path="/login" element={<Login/>} />
+            <Route exact path="/signup" element={<Signup/>} />
+            <Route exact path="/success" element={<Success/>} />
     </Routes>
   )
 }

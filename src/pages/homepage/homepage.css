@@ -12,6 +12,15 @@
   color:#FF5C00;
   border-color: #FF5C00;
 }
+.bg-orange {
+  background-color: #FF5C00;
+}
+.border-orange {
+  border-color: #FF5C00 !important;
+}
+.border-orange:focus {
+  border-color: #FF5C00 !important;
+}
 .green {
   color: #049A01;
   background: #F0FFEE;

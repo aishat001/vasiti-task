@@ -15,7 +15,7 @@ export default function Header() {
         <div className="container sm:px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link
-            to=""
+            to="/"
               className="text-sm font-bold font-ranchers logo-color leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
             >                   
              <img src={vasitiLogo} alt="logo"/>
@@ -42,25 +42,25 @@ export default function Header() {
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
             <li className="nav-item">
                 <Link 
-                to=""
+                to="/aboutUs"
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug hover:opacity-75"
                 >About us</Link>
               </li>
               <li className="nav-item">
                 <Link
-                to=""
+                to="/stories"
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug hover:opacity-75"
                 >Stories</Link>
               </li>
               <li className="nav-item">
                 <Link
-                to=""
+                to="/contact"
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug hover:opacity-75"
                 >Contact us </Link>
               </li>
               <li className="nav-item">
                 <Link
-                to=""
+                to="login"
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug hover:opacity-75"
                 >Log in</Link>
               </li>
