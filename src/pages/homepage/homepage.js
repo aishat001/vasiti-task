@@ -107,9 +107,9 @@ function Homepage() {
                         <img src={share} alt="share your story line" width="240px"/>
                     </Link>
                 </div>
-                <div className="md:w-7/12 xl:w-6/12">
-                    <img src={ti4} alt="testimonial" className="w-screen sm:hidden "/>
-                    <img src={ti4} alt="testimonial" className="hidden sm:flex relative top-20" height="700px"/>
+                <div className="md:w-7/12 xl:w-6/12 overflow-hidden">
+                    <img src={ti4} alt="testimonial" className="w-screen md:hidden "/>
+                    <img src={ti4} alt="testimonial" className="hidden md:flex relative top-20 height-700" height="700px"/>
                 </div>
             </section>
 

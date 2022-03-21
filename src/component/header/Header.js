@@ -75,7 +75,7 @@ export default function Header() {
         </div>
       </nav>
       
-      <div className='flex space-x-5 md:justify-center lg:space-x-14 sm-boxShadow py-4 overflow-x-scroll  px-10'>
+      <div className='flex space-x-5 md:justify-center lg:space-x-14 sm-boxShadow py-4 overflow-x-scroll scrolll md:overflow-x-hidden  px-10'>
             {subNav.map(item => 
               <Link
               to=""

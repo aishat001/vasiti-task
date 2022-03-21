@@ -10,3 +10,25 @@
     box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.04);
     border: 1px solid rgba(0, 0, 0, 0.08);
 }
+
+/* width */
+.scrolll::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+  }
+  
+  /* Track */
+  /* .scrolll::-webkit-scrollbar-track {
+    background: #222222; 
+  } */
+   
+  /* Handle */
+  .scrolll::-webkit-scrollbar-thumb {
+    background: #9e9595; 
+    width: 20px;
+  }
+  
+  /* Handle on hover */
+  .scrolll::-webkit-scrollbar-thumb:hover {
+    background: #9e9595; 
+  }
