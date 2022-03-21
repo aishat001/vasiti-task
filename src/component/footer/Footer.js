@@ -10,7 +10,10 @@ import instagram from '../../assets/ig.svg'
 export default function Footer() {
   return (
     <footer className='footer-bg px-5 sm:px-10 md:px-20 space-y-10 pb-20'>
-      <div className="w-full flex flex-col-reverse sm:flex-row justify-around relative pt-20 md:pt-0 md:-top-5">
+      <div
+          data-aos="fade-up"
+          data-aos-duration="3000"
+           className="w-full flex flex-col-reverse sm:flex-row justify-around relative pt-20 md:pt-0 md:-top-5">
         <img src={mobile} alt="" className='sm:w-5/12 ' height=""/>
 
         <div class="mb-10 md:w-6/12 lg:w-4/12 flex flex-col self-center">
@@ -35,7 +38,10 @@ export default function Footer() {
 
       <div className="flex flex-wrap flex-row justify-between text-white">
 
-        <div class="mb-6 mr-5">
+        <div
+            data-aos="fade-up"
+            data-aos-duration="3000"
+             class="mb-6 mr-5">
           <h5 class="uppercase font-bold mb-2.5 ">Company</h5>
 
           <ul class="flex flex-col list-none mb-0">
@@ -67,7 +73,10 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div class="mb-6 mr-5">
+        <div
+            data-aos="fade-up"
+            data-aos-duration="3000"
+             class="mb-6 mr-5">
           <h5 class="uppercase font-bold mb-2.5 ">Products</h5>
 
           <ul class="flex flex-col list-none mb-0">
@@ -105,7 +114,10 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div class="mb-6 mr-5">
+        <div
+            data-aos="fade-up"
+            data-aos-duration="3000"
+             class="mb-6 mr-5">
           <h5 class="uppercase font-bold mb-2.5 ">Careers</h5>
 
           <ul class="flex flex-col list-none mb-0">
@@ -137,7 +149,10 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div class="mb-6">
+        <div 
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            class="mb-6 mr-5">
           <h5 class="uppercase font-bold mb-2.5 ">Get in touch</h5>
 
           <ul class="flex flex-col list-none mb-0">
@@ -169,7 +184,10 @@ export default function Footer() {
           </ul>
         </div>
 
-        <div class="mb-6">
+        <div
+            data-aos="fade-up"
+            data-aos-duration="3000"
+             class="mb-6">
           <h5 class="uppercase font-bold mb-2.5 ">Join our community</h5>
 
           <ul class="flex flex-col list-none mb-0 space-y-6">

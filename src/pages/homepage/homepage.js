@@ -8,6 +8,9 @@ import share from '../../assets/share.png'
 import './homepage.css'
 import {Link} from 'react-router-dom'
 import people, { vendors } from '../../data'
+// import AOS from 'aos';
+// import 'aos/dist/aos.css'; 
+// AOS.init();
 // import vendors from '../../data'
 
 
@@ -16,7 +19,10 @@ function Homepage() {
         <div className="flex flex-col">
 
             <section className='space-y-10 md:space-y-0 flex flex-col sm:flex-row justify-center align-center pt-10 md:px-20'>
-                <div className="px-5 sm:px-10  md:px-0 text-left space-y-8 flex flex-col justify-center align-center md:w-5/12">
+                <div 
+                data-aos="fade-up"
+                data-aos-duration="3000"
+                className="px-5 sm:px-10  md:px-0 text-left space-y-8 flex flex-col justify-center align-center md:w-5/12">
                     <h1 className='text-3xl xs:text-4xl sm:text-3xl md:text-3xl lg:text-5xl  font-bold'>
                         Amazing
                         Experiences from Our Wonderful Customers
@@ -35,11 +41,18 @@ function Homepage() {
 
 
             <section className=' overflow-hidden pb-24 space-y-10 md:space-y-0 text-white flex flex-col-reverse md:flex-row justify-between align-center md:px-20 hp-sectionBg'>
-            <div className="md:w-4/12 xl:w-6/12">
+            <div
+                           data-aos="fade-up"
+                           data-aos-duration="3000"
+                            className="md:w-4/12 xl:w-6/12">
                     <img src={ti3Mobile} alt="testimonial" className="w-screen sm:hidden relative top-24"/>
                     <img src={ti3} alt="testimonial" className="hidden sm:flex relative top-40"/>
                 </div>
-                <div className=" mt-10 md:mt-0 mb-28 md:mb-0 px-5 sm:px-10   md:px-0 text-left space-y-10 flex flex-col justify-center align-center  md:w-6/12  xl:w-4/12 relative top-14">
+
+                <div 
+                               data-aos="fade-up"
+                               data-aos-duration="3000"
+                               className=" mt-10 md:mt-0 mb-28 md:mb-0 px-5 sm:px-10   md:px-0 text-left space-y-10 flex flex-col justify-center align-center  md:w-6/12  xl:w-4/12 relative top-14">
                     <h1 className='text-2xl  font-bold'>
                     Oby's Experience <br></br>
                     <span className="border max-w-min p-1 rounded font-normal relative top-2">
@@ -69,7 +82,10 @@ function Homepage() {
                 
             {
                 people.map(item => 
-                    <div className="space-y-3 w-80 mb-20 mr-5">
+                    <div 
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
+                    className="space-y-3 w-80 mb-20 mr-5">
                         <img src={item.image} alt=""/>
                         <p className="text-2xl">{item.name}</p>
                         <div className="flex flex-row space-x-3 items-center">
@@ -85,7 +101,11 @@ function Homepage() {
 
             <section className='hp-section4bg flex flex-col-reverse md:flex-row py-20 md:pb-0 justify-between sm:justify-between align-center md:px-20'>
          
-                <div className="px-8 md:px-0 text-left space-y-6 flex flex-col justify-center align-center md:w-5/12 mt-20 md:mt-0">
+                <div
+                
+                data-aos="fade-up"
+                data-aos-duration="3000"
+                className="px-8 md:px-0 text-left space-y-6 flex flex-col justify-center align-center md:w-5/12 mt-20 md:mt-0">
                     <h1 className='text-2xl  font-bold'>
                     Oby's Experience <br></br>
                     <span className="border max-w-min p-1 rounded font-normal relative top-2 text-orange">
@@ -107,7 +127,10 @@ function Homepage() {
                         <img src={share} alt="share your story line" width="240px"/>
                     </Link>
                 </div>
-                <div className="md:w-7/12 xl:w-6/12 overflow-hidden">
+                <div
+                    data-aos="fade-up"
+                    data-aos-duration="3000"
+                    className="md:w-7/12 xl:w-6/12 overflow-hidden">
                     <img src={ti4} alt="testimonial" className="w-screen md:hidden "/>
                     <img src={ti4} alt="testimonial" className="hidden md:flex relative top-20 height-700" height="700px"/>
                 </div>
@@ -117,7 +140,10 @@ function Homepage() {
                 
                 {
                     vendors.map(item => 
-                        <div className="space-y-3 w-80 mb-20 mr-5">
+                        <div
+                        data-aos="fade-up"
+                        data-aos-duration="3000"
+                         className="space-y-3 w-80 mb-20 mr-5">
                             <img src={item.image} alt=""/>
                             <p className="text-2xl">{item.name}</p>
                             <div className="flex flex-row space-x-3 items-center">
