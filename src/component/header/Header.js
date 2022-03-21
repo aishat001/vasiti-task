@@ -10,9 +10,9 @@ export default function Header() {
     const subNav = ['MARKETPLACE', 'WHOLESALE CENTER', 'SELLER CENTER', 'SERVICES', 'INTERNSHIPS', 'EVENTS']
 
   return (
-    <>
+    <div>
       <nav className="relative flex items-center justify-between px-5 md:px-20 py-3 fixed bg-white dark:bg-primary">
-        <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
+        <div className="container sm:px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link
             to=""
@@ -21,7 +21,7 @@ export default function Header() {
              <img src={vasitiLogo} alt="logo"/>
             </Link>
             <button
-              className=" cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-dark rounded bg-dark block lg:hidden outline focus:outline-none"
+              className=" cursor-pointer px-3 py-1 bg-dark block lg:hidden"
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
@@ -74,7 +74,8 @@ export default function Header() {
 
         </div>
       </nav>
-      <div className='flex justify-center space-x-5 lg:space-x-14 sm-boxShadow py-4 overflow-x-scroll  px-10'>
+      
+      <div className='flex space-x-5 md:justify-center lg:space-x-14 sm-boxShadow py-4 overflow-x-scroll  px-10'>
             {subNav.map(item => 
               <Link
               to=""
@@ -84,6 +85,6 @@ export default function Header() {
               </Link>
               )}
       </div>
-      </>
+      </div>
   );
 }

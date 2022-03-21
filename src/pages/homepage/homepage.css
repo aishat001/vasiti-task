@@ -3,4 +3,12 @@
   }
 
 .hp-section4bg {
-  background: #FFF8F5;}
+  background: #FFF8F5;
+}
+.letter-spacing {
+  letter-spacing: 0.2em;
+}
+.text-orange {
+  color:#FF5C00;
+  border-color: #FF5C00;
+}
